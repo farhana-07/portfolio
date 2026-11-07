@@ -21,7 +21,7 @@ const destinations: Destination[] = [
 
 // Drop your video file into /public and set the path here, e.g. '/elevator-pitch.mp4'.
 // Leave empty to show the "coming soon" placeholder.
-const PITCH_VIDEO_SRC = ''
+const PITCH_VIDEO_SRC = '/elevator-pitch.mp4'
 
 const skillGroups = [
   { name: 'Languages', items: ['Python', 'Java', 'HTML', 'CSS', 'JavaScript', 'SQL'] },
@@ -64,7 +64,7 @@ function Atlas({ onSelect }: { onSelect: (destination: Destination) => void }) {
     <div className="atlas-glow" />
     <div className="hero-copy">
       <p className="kicker">Portfolio</p>
-      <h1 id="atlas-heading">A constellation<br /><em>of experiences.</em></h1>
+      <h1 id="atlas-heading">A Constellation<br /><em>of Experiences.</em></h1>
       <p className="hero-intro">I’m <strong>Farhana Ashiq</strong> — a computer science, data science, and economics student exploring how technology can make everyday life more useful, human, and full of possibility.</p>
       <p className="scroll-note"><span className="scroll-line" /> Scroll to explore the atlas</p>
     </div>
